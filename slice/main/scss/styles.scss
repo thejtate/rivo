@@ -1,0 +1,27 @@
+@import "compass";
+
+//base styles
+@import "common/mixins";
+@import "common/fonts";
+@import "common/settings";
+@import "common/normalize";
+@import "common/helpers";
+@import "common/defaults";
+
+//modules
+@import "modules/grid";
+//@import "modules/bootstrap-modal"; if need
+
+//layout
+@import "layout/header";
+@import "layout/wrappers";
+@import "layout/content";
+@import "layout/footer";
+
+//forms
+@import "forms/forms";
+
+//sections
+
+//blocks
+@import "blocks/modal";
